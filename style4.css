@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e8d9cd;
+}
+#header{
+    writing-mode: vertical-lr;
+    color: grey;
+    font-size: 250%;
+}
+#main_section{
+    display: flex;
+}
+#painting{
+    height:400px;
+    width:250px;
+    background-color: beige;
+    margin-left: 20px;
+    display:flex;
+    writing-mode: vertical-lr;
+    font-size: 100%;
+}
+#reading{
+    height:400px;
+    width:250px;
+    background-color: beige;
+    margin-left: 20px;
+    display:flex;
+    writing-mode: vertical-lr;
+    font-size: 100%;
+}
+#photography{
+    height:400px;
+    width:250px;
+    background-color: beige;
+    margin-left: 20px;
+    display:flex;
+    writing-mode: vertical-lr;
+    font-size: 100%;
+}
+#music{
+    height:400px;
+    width:250px;
+    background-color: beige;
+    margin-left: 20px;
+    display:flex;
+    writing-mode: vertical-lr;
+    font-size: 100%;
+}
+#paintphoto{
+    margin: 20px;
+}

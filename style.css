@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e7d7c9;
+    
+}
+#main{
+    display: flex;
+}
+h1{
+    font-family: 'sorts mill goudy';
+    font-size: 250%;
+    
+}
+h2{
+    font-family: 'sorts mill goudy';
+    height: 50px ;
+    color:white;
+    font-size: 150%;
+}
+#logo{
+    margin-top:55px;
+    margin-left: 180px;
+}
+#details{
+    width: 500px;
+    justify-content: center;
+    padding-top: 200px;
+}
+button{
+    height: 20px;
+    margin-left:40px;
+    background-color:#e8eae5;
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'sorts mill goudy';
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: #e8eae5;
+}

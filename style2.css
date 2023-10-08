@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#main_section{
+    background-color: #efe9dc;
+    display: flex;
+    height:600px;
+}
+#header{
+    height: 100px;
+    
+    background-color: #d8c9ba;
+    font-size: 200%;
+}
+h1{
+   padding-left: 300px;
+   margin-bottom: 20px;
+}
+.bio{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 400px;
+}
+#about_me{
+    position: absolute;
+   top:30%;
+   font-size: 200%;
+   writing-mode: vertical-rl;
+   transition: opacity 0.4s ease-in-out;
+   cursor: pointer;
+}
+#interests{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;   
+}
+#hobby{
+    position: absolute;
+    font-size: 200%;
+    writing-mode: horizontal-tb;
+    top: 0%;
+    left: 40%;
+}
+#project_section{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    height:225px; 
+}
+#projects{
+    position: absolute;
+    font-size: 200%;
+    writing-mode: horizontal-tb;
+    top: 80%;
+    left: 0%;
+}
+#projectimg{
+    height: 225px;
+    width:338px;
+}
+#bioimg{
+    height: 465px;
+    width: 350px;
+}
+#contactimg{
+    height: 460px;
+
+}
+#contactsection{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+#contactme{
+    position: absolute;
+    top:40%;
+    font-size: 200%;
+    writing-mode:vertical-rl;
+    color: black;  
+}
+.bio:hover img{
+    opacity: 0.2;
+    background-color: beige;
+}
+#interests:hover img{
+    opacity: 0.2;
+}
+#project_section:hover img{
+    opacity: 0.2;
+}
+#contactsection:hover img{
+    opacity: 0.2;
+}
